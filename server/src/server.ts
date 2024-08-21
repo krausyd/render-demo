@@ -6,7 +6,7 @@ import logRequest from './middleware/logRequest.js';
 
 const app = express();
 
-const PORT = process.env.PORT || 3001;
+const PORT = 3001;
 
 // Serves static files in the entire client's dist folder
 app.use(express.json());
